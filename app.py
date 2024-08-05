@@ -15,7 +15,7 @@ st.set_page_config(
 st.header('Análisis de datos de Vehículos')
 
 # Cargar los datos desde el directorio
-car_data = pd.read_csv('C:/Users/Albert/Desktop/data_analyst_project/vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 # Mostrar los primeros 30 datos del conjunto de datos
 st.subheader('Primeros 30 datos del conjunto de datos')
